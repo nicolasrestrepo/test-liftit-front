@@ -1,0 +1,85 @@
+  .input {
+    width: 500px; 
+  }
+
+
+/*Change text in autofill textbox*/
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px white inset;
+  padding: 0 10px;
+}
+.forgot-password{
+  margin-top: 30px;
+  &:hover{
+    background: none;
+    color: rgb(254, 100, 45);
+  }
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.heading-login {
+  padding: 0 2rem;
+  height: 100vh;
+  background:  #1f1a2e;
+  color: #fff;
+;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  img{
+    position: absolute;
+    top: 10px;
+  }
+.title {
+    margin: 0;
+  }
+}
+
+.login {
+  padding: 0 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #1f1a2e;
+  &__title {
+    margin: 0;
+  }
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+
+
+.button-login {
+  width: 30%;
+  height: 58px;
+  margin-top: 30px;
+  background-color:  rgb(254, 100, 45);
+;
+  &__label {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+  }
+}

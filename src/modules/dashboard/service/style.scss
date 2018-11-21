@@ -1,0 +1,48 @@
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+.input {
+    width: 500px; 
+}
+
+.map-container {
+    margin-top: 50px;
+    width: 700px; 
+    height: 420px;
+}
+.container-form {
+    padding-bottom: 40px;
+}
+.container-form, .container-list{
+    margin: 20px 60px;
+
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.button-service {
+    height: 58px;
+    margin: 20px 60px;
+    background-color:  rgb(254, 100, 45);
+    &:hover{
+       background:  #1f1a2e;
+    }
+    &__label {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 0;
+    }
+  }
+
+.container-data{
+    display: flex;
+    flex-direction: column;
+}
