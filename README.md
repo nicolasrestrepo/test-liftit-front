@@ -8,4 +8,15 @@
 - google maps
 
 # run
-    `npm start || yarn start`
+
+[Yarn](https://github.com/yarnpkg/)
+
+```sh
+yarn && yarn start
+
+```
+
+If you want run local api, use local backend reposiroty lifit-test-back, run in port 3000, and change url in path env.js
+
+# Author
+Nicolas Restrepo    
